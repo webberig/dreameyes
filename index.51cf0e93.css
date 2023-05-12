@@ -1,0 +1,2 @@
+.page{min-height:100vh}@keyframes title{0%{opacity:0;transform:translateY(10vh)scale(.7)}20%{opacity:0}to{opacity:.8;transform:matrix(1,0,0,1,0,0)}}.page.intro{text-align:center;background:url(bg.c038533c.jpg) 50%/cover}.page.intro .content{padding-top:10vh}.page.intro h1{color:#fff;text-shadow:0 0 15px #0003;margin:0;font-family:Amatic SC,cursive;font-size:15vw;animation:3s ease-out title}.page.intro p{color:#fff;font-size:22px;font-weight:700}html,body{margin:0;padding:0;font-family:Lato,sans-serif}
+/*# sourceMappingURL=index.51cf0e93.css.map */

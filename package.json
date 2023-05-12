@@ -5,14 +5,12 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "predeploy": "parcel build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "2.8.3",
-    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3"
   }
 }

@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  background: linear-gradient(180deg, #000, #333);
+  background-attachment: fixed;
+  color: white;
+  padding: 4rem 0;
+
+}
+.members {
+  list-style: none;
+  margin: 2rem 0 4rem;
+  padding: 0;
+
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+
+  li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  h3, p {
+    line-height: 1;
+    margin: 0;
+  }
+}

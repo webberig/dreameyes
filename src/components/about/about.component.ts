@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
+import {Dialog} from "@angular/cdk/dialog";
+import {MemberDialogComponent} from "../member-dialog/member-dialog.component";
 
 @Component({
   selector: 'app-about',
@@ -9,4 +11,9 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+  private dialog = inject(Dialog);
+
+  openMember() {
+    this.dialog.open(MemberDialogComponent)
+  }
 }

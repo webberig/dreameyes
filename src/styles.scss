@@ -1,5 +1,6 @@
 @use "./theme/variables" as *;
 @import "modern-normalize/modern-normalize.css";
+@import "@angular/cdk/overlay-prebuilt.css";
 
 html, body {
   margin: 0;
@@ -24,4 +25,11 @@ h2 {
 h3 {
   font-size: 2em;
 
+}
+
+.cdk-dialog-container {
+  outline: none;
+}
+.cdk-overlay-dark-backdrop {
+  background: rgba(0, 0, 0, .60);
 }

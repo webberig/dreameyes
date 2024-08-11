@@ -1,10 +1,8 @@
 :host {
   display: block;
-  background: linear-gradient(180deg, #000, #333);
-  background-attachment: fixed;
+  background: linear-gradient(180deg, #323232, #3e493b);
   color: white;
   padding: 4rem 0;
-
 }
 .members {
   list-style: none;
@@ -19,6 +17,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    cursor: pointer;
   }
   img {
     max-width: 100%;
@@ -27,4 +26,9 @@
     line-height: 1;
     margin: 0;
   }
+}
+
+.container {
+  max-width: 704px;
+  text-align: justify;
 }

@@ -160,6 +160,15 @@
     vite "5.3.2"
     watchpack "2.4.1"
 
+"@angular/cdk@^18.1.4":
+  version "18.1.4"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-18.1.4.tgz#d315976f638e6a762dad0010c0d16501f6b5fe44"
+  integrity sha512-xFOg2wT2iLyJXqgeNRK1uF4Lxn0B1wzBjaEQoOwFm1EHOdu5D4mNOTwfuB3DkH4KWM+mI3Qtxd7vOhOXNwB3Dg==
+  dependencies:
+    tslib "^2.3.0"
+  optionalDependencies:
+    parse5 "^7.1.2"
+
 "@angular/cli@^18.0.6":
   version "18.1.4"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-18.1.4.tgz#2ed37cd4f5d8ca032c41a9a512870d926cf82fc0"
@@ -5289,7 +5298,7 @@ parse5-sax-parser@^7.0.0:
   dependencies:
     parse5 "^7.0.0"
 
-parse5@^7.0.0:
+parse5@^7.0.0, parse5@^7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-7.1.2.tgz#0736bebbfd77793823240a23b7fc5e010b7f8e32"
   integrity sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw==

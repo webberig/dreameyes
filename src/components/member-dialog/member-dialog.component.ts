@@ -1,5 +1,5 @@
 import {Component, inject} from '@angular/core';
-import {DialogRef} from "@angular/cdk/dialog";
+import {DIALOG_DATA, DialogRef} from "@angular/cdk/dialog";
 
 @Component({
   selector: 'app-member-dialog',
@@ -10,6 +10,8 @@ import {DialogRef} from "@angular/cdk/dialog";
 })
 export class MemberDialogComponent {
   private dialog = inject(DialogRef);
+
+  member = inject(DIALOG_DATA).member
 
   close() {
     this.dialog.close();

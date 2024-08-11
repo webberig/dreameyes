@@ -13,7 +13,11 @@ export class AboutComponent {
 
   private dialog = inject(Dialog);
 
-  openMember() {
-    this.dialog.open(MemberDialogComponent)
+  openMember(member: string) {
+    this.dialog.open(MemberDialogComponent, {
+      data: {
+        member,
+      }
+    })
   }
 }

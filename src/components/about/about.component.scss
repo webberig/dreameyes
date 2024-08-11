@@ -2,8 +2,17 @@
   display: block;
   background: linear-gradient(180deg, #323232, #3e493b);
   color: white;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
+
+a {
+  color: white;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .members {
   list-style: none;
   margin: 2rem 0 4rem;
@@ -18,9 +27,16 @@
     padding: 0;
     text-align: center;
     cursor: pointer;
+    &:nth-child(2) {
+      transform: translateY(-20px);
+    }
+    &:nth-child(3) {
+      transform: translateY(30px);
+    }
   }
   img {
     max-width: 100%;
+    width: 200px;
   }
   h3, p {
     line-height: 1;

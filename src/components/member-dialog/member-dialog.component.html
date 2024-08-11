@@ -1,13 +1,27 @@
-<header>
-  <img src="https://via.placeholder.com/550x150" width="550" height="150" alt="Mathieu"/>
-  <button class="close" (click)="close()"></button>
-</header>
-<img class="profile" src="https://via.placeholder.com/200x200" width="200" height="200" alt="Mathieu"/>
-<section>
-  <p>
-    Mathieu endured a classical education in piano and drums. After playing the drums in a few bands, he decided to
-    focus on the piano, mostly playing in different cover/party bands (The Firm, Supernatural Heroes, Six on Fire, Cups and plates, ...).
-  </p>
-  <p>His musical hobby came to a full stop years ago until he got a call from Marc. He found a renewed pleasure in making music by
-    arranging the songs from before. The biggest achievement so far was playing on an actual Hammond organ in the studio.</p>
-</section>
+@if (member === 'mathieu') {
+  <header>
+    <img src="/img/mathieu/bg.jpg" width="550" height="150" alt="Keyboards"/>
+    <button class="close" (click)="close()"></button>
+  </header>
+  <img class="profile" src="/img/mathieu/dialog.jpg" width="200" height="200" alt="Mathieu"/>
+  <section>
+    <p>
+      Mathieu endured a classical education in piano and drums. After playing the drums in a few bands, he decided to
+      focus on the piano, mostly playing in different cover/party bands (The Firm, Supernatural Heroes, Six on Fire, Cups and plates, ...).
+    </p>
+    <p>His musical hobby came to a full stop years ago until he got a call from Marc. He found a renewed pleasure in making music by
+      arranging the songs from before. The biggest achievement so far was playing on an actual Hammond organ in the studio.</p>
+  </section>
+} @else {
+  <header>
+    <img src="https://via.placeholder.com/550x150" width="550" height="150" alt="Mathieu"/>
+    <button class="close" (click)="close()"></button>
+  </header>
+  <img class="profile" src="https://via.placeholder.com/200x200" width="200" height="200" alt="Mathieu"/>
+  <section>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt tincidunt. Nullam
+      ultricies, nunc nec aliquam ultricies, nunc nunc aliquam ultricies, nunc nunc aliquam ultricies, nunc nunc
+    </p>
+  </section>
+}

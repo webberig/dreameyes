@@ -1,0 +1,58 @@
+:host {
+  background: #e0e0e0;
+  display: block;
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.albums {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  list-style: none;
+}
+
+.album {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 6px 6px #00000008;
+  border-radius: 5px;
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.album-info {
+  padding: 2rem;
+  background-color: #fafafa;
+  text-align: center;
+  p {
+    text-align: justify;
+  }
+  h3 {
+    text-align: center;
+  }
+}
+
+button {
+  background-color: #edb61e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #c78421;
+  }
+}

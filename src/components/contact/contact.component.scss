@@ -1,0 +1,18 @@
+:host {
+  padding: 10rem 0;
+  text-align: center;
+  display: block;
+  background-color: #643b1f;
+  color: #FFFFFF99
+}
+a {
+    color: #FFFFFFFF;
+    text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: #FFFFFF66;
+  }
+  &:active {
+    color: #FFFFFF33;
+  }
+}

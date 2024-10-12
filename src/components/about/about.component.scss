@@ -1,8 +1,11 @@
 :host {
   display: block;
-  background: linear-gradient(180deg, #323232, #3e493b);
   color: white;
   padding: 2rem 0;
+  background: url("/img/about_bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: calc(var(--scroll) * -.2);
 }
 
 a {

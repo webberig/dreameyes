@@ -1,6 +1,9 @@
+@use '@angular/cdk';
 @use "./theme/variables" as *;
 @import "modern-normalize/modern-normalize.css";
 @import "@angular/cdk/overlay-prebuilt.css";
+
+@include cdk.a11y-visually-hidden();
 
 html, body {
   margin: 0;

@@ -20,12 +20,18 @@
   background: url("/img/intro_bg.jpg");
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
+  background-position-y: calc(var(--scroll) * -.5);
 
   text-align: center;
 }
 
 section {
-  padding-top: 10vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
 h1 {
@@ -34,5 +40,7 @@ h1 {
   font-family: Amatic SC, cursive;
   font-size: 15vw;
   animation: title 3s ease-out forwards;
+  top: calc(var(--scroll) * .4);
+  position: relative;
   margin: 0;
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef, HostListener, inject} from '@angular/core';
 
 @Component({
   selector: 'app-splash',
@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './splash.component.scss'
 })
 export class SplashComponent {
+
+  private element: HTMLElement = inject(ElementRef).nativeElement;
+
+  @HostListener('window:scroll', ['$event']) onScrollEvent() {
+    this.element.style.setProperty('--scroll', window.scrollY + 'px')
+  }
 
 }

@@ -5,6 +5,10 @@
 
 @include cdk.a11y-visually-hidden();
 
+html {
+  background: rgba(88,81,122,1);
+}
+
 html, body {
   margin: 0;
   padding: 0;

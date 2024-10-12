@@ -14,9 +14,12 @@ h2 {
 .albums {
   display: grid;
   gap: 2rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   padding: 0;
   list-style: none;
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .album {

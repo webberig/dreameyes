@@ -9,7 +9,7 @@ import {NewsComponent} from "../components/news/news.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SplashComponent, AboutComponent, MusicComponent, ContactComponent, NewsComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
